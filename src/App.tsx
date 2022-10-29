@@ -28,7 +28,7 @@ const App = () => {
                     The source file: <a href={blobURL({
                         sha2_256: "e26d618a8be31497ccf0cfc95e5bafc4c6754081903d57d9c82652e63548e47f",
                         ext: "scad"
-                    })}>Belt_Attachment_13.scad</a>. You'll need <a href="https://openscad.org/">OpenSCAD</a>
+                    })}>Belt_Attachment_13.scad</a>. You'll need <a href="https://openscad.org/">OpenSCAD</a> 
                     (free as in speech and free as in beer) to convert this to a STL file; alternatively, you can use the STL file below.
                 </li>
                 <li>
