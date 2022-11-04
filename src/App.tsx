@@ -24,23 +24,23 @@ const App = () => {
         }
     }
     return (
-        <div className="App">
-            <div className="App-header">
-                Chris Oei's Page
+        <div className="app">
+            <div className="app-header">
+                <div className="app-title">
+                    Chris Oei's Page
+                </div>
+                <div className="nav">
+                    <div className="nav-item" onClick={() => {setCurrentPage("publications") } }>
+                        Publications
+                    </div>
+                    <div className="nav-item" onClick={() => {setCurrentPage("socialMedia") } }>
+                        Social Media
+                    </div>
+                    <div className="nav-item" onClick={() => { setCurrentPage("hobbies") }}>
+                        Hobbies
+                    </div>
+                </div>
             </div>
-            <div className="nav">
-                <div className="nav-item" onClick={() => {setCurrentPage("publications") } }>
-                    Publications
-                </div>
-                <div className="nav-item" onClick={() => {setCurrentPage("socialMedia") } }>
-                    Social Media
-                </div>
-                <div className="nav-item" onClick={() => { setCurrentPage("hobbies") }}>
-                    Hobbies
-                </div>
-            </div>
-            
-            Please pardon the dust -- I'll put up real content soon.
 
             {handleSection()}
             

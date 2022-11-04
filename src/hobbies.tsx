@@ -2,7 +2,7 @@
 
 export const hobbies = () => {
     return (
-        <div className="hobbies">
+        <div className="hobbies content-section">
 
             <h2>Hobbies</h2>
             One of my hobbies is 3D printing. Here's a little project for something you can use to attach a carabiner to a belt.

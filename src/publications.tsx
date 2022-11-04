@@ -2,7 +2,7 @@
 import { blobURL } from "./common"
 
 export const publications = () => {
-    return (<div className="publications">
+    return (<div className="publications content-section">
         <h2>Publications</h2>
         <ul>
             <li>
