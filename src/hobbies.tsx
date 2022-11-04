@@ -1,4 +1,4 @@
-﻿import { blobURL } from "./common"
+import { blobURL } from "./common"
 
 export const hobbies = () => {
     return (

@@ -1,4 +1,4 @@
-﻿
+
 import { blobURL } from "./common"
 
 export const publications = () => {

@@ -1,4 +1,4 @@
-﻿export interface Blob {
+export interface Blob {
     sha2_256: string
     ext: string
 }

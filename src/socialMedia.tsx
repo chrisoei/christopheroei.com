@@ -1,4 +1,4 @@
-﻿
+
 export const socialMedia = () => {
     return (
         <div className="social-media content-section">

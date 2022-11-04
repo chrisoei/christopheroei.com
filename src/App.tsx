@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './App.css'
-import { blobURL } from './common'
 import { hobbies } from './hobbies'
 import { publications } from './publications'
 import { socialMedia } from './socialMedia'
@@ -12,13 +11,10 @@ const App = () => {
         switch (currentPage) {
             case "publications":
                 return publications()
-                break
             case "socialMedia":
                 return socialMedia()
-                break
             case "hobbies":
                 return hobbies()
-                break
             default:
                 alert("Bug!")
         }
